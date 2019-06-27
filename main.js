@@ -1,3 +1,53 @@
+var array1=	[	
+				"Violin",
+				"Saxofon",
+				"Bateria",
+				"Bajo",
+				"Guitarra",
+			]
+var arraynum=	[	
+				612,
+				15,
+				1,
+				5,
+				900,
+			]
+document.
+getElementById("ejercicioArray")
+.innerHTML= array1.sort()
+console.log(array1)
+// var text4= array1.unshift("Piano")
+// var text= "APRENDIZ"
+// document.
+// getElementById("ejercicio1")
+// .innerHTML= text.toLowerCase() + " sena"
+// var textsplit= text.split("")
+// document.
+// getElementById("ejercicio2")
+// .innerHTML= textsplit.join("+")
+// document.
+// getElementById("ejercicio3")
+// .innerHTML= text.split("").reverse().join("");
+// var textoarray=array1.toString()
+// var textoarray2=array1.join("+")
+// var textoarray3=array1.pop()
+// console.log(array1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // console.log(cadena1.length)
 
@@ -10,7 +60,7 @@
 // console.log(cadena1.toLowerCase())
 // console.log(cadena1.toUpperCase())
 
-var cadena1= "Carro bmw"
+
 // var cadena2= "Nuevo"
 
 // var cadenaNueva=cadena1.concat(cadena2)
