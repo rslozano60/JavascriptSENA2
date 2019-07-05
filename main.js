@@ -1,21 +1,70 @@
-var array1=	[	
-				"Violin",
-				"Saxofon",
-				"Bateria",
-				"Bajo",
-				"Guitarra",
-			]
-var arraynum=	[	
-				612,
-				15,
-				1,
-				5,
-				900,
-			]
-document.
-getElementById("ejercicioArray")
-.innerHTML= array1.sort()
-console.log(array1)
+var app = 
+	new Vue({
+	  el: '#app',
+	  data: {
+	  	show:false,
+	  	check:false,
+	  	Arraynombres:[],
+	  	seleccionada:"",
+	  	picked:"",
+	    message: 'Hello Vue!',
+	    tareas:[
+	    	{text:"Correr"},
+	    	{text:"Dormir"},
+	    	{text:"Comer"}
+	    ]
+	    // show:"ESTA ES UNA NUEVA VARIABLE",
+	    // persona:{
+	    // 	nombre:"Carlos",
+	    // 	apellido:"Garzón",
+	    // 	fechanacimiento:{
+	    // 		dia:15,
+	    // 		mes:"enero",
+	    // 		ano:1999
+	    // 	}
+	    // }
+	  },
+	  methods:{
+	  	aprender(){
+	  		this.show=!this.show
+	  		console.log(this.show)
+	  	},
+	  	agregarTarea(){
+	  		this.tareas.push(
+	  			{text:this.message}
+	  			)
+	  		console.log(this.tareas)
+	  	},
+	  	eliminarTarea(index){
+	  		console.log(index)
+	  		// this.tareas.pop()
+	  		this.tareas.splice(index,1)
+	  	}
+	  }
+	})
+
+
+
+
+
+// var array1=	[	
+// 				"Violin",
+// 				"Saxofon",
+// 				"Bateria",
+// 				"Bajo",
+// 				"Guitarra",
+// 			]
+// var arraynum=	[	
+// 				612,
+// 				15,
+// 				1,
+// 				5,
+// 				900,
+// 			]
+// document.
+// getElementById("ejercicioArray")
+// .innerHTML= array1.sort()
+// console.log(array1)
 // var text4= array1.unshift("Piano")
 // var text= "APRENDIZ"
 // document.
